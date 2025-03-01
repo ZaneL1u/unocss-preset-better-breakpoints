@@ -1,6 +1,6 @@
 import { definePreset } from '@unocss/core'
 
-export interface StarterOptions {
+export interface BetterBreakpointsOptions {
   /**
    *  The number of columns in the grid system (Example option)
    *
@@ -9,11 +9,11 @@ export interface StarterOptions {
   span?: number
 }
 
-export const presetStarter = definePreset((_options: StarterOptions = {}) => {
+export const presetBetterBreakpoints = definePreset((_options: BetterBreakpointsOptions = {}) => {
   const span = _options.span ?? 12
 
   return {
-    name: 'unocss-preset-starter',
+    name: 'unocss-preset-better-breakpoints',
 
     theme: {
       // Customize your theme here
