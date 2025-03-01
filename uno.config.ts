@@ -1,12 +1,12 @@
 import { defineConfig, presetUno } from 'unocss'
-import { presetStarter } from './src'
+import { presetBetterBreakpoints } from './src'
 
 // Just for Vscode Extension
 
 export default defineConfig({
   presets: [
     presetUno(),
-    presetStarter({
+    presetBetterBreakpoints({
       span: 24,
     }),
   ],
