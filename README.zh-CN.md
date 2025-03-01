@@ -11,21 +11,22 @@
 
 <!-- /automd -->
 
-UnoCSS has better breakpoint presets, which can be configured for Desktop First and Mobile First.
+为 UnoCSS 打造的更好的 BreakPoints 预设, 无论您是移动端优先或者桌面端优先。
 
 <br>
 
 <p align='center'>
-<b>English</b> | <a href="https://github.com/ZaneL1u/unocss-preset-better-breakpoints/blob/main/README.zh-CN.md">简体中文</a>
+<a href="https://github.com/ZaneL1u/unocss-preset-better-breakpoints/blob/main/README.md">English</a> | <b>简体中文</b>
 </p>
+<br>
 
-## Features
-- 📏 Viewport breakpoints
-- 📱 According to the equipment and design
-- 📦 Easy to use
-- 🚀 Fast and efficient
+## 功能
+- 📏 根据视口响应式的断点系统
+- 📱 更好的适配设计稿和设备
+- 📦 使用简单
+- 🚀 快速高效的完成各种设备的适配
 
-## Installation
+## 安装
 <!-- automd:pm-install dev -->
 
 ```sh
@@ -50,7 +51,7 @@ deno install --dev unocss-preset-better-breakpoints
 
 <!-- /automd -->
 
-## Usage
+## 使用
 <!-- automd:file src="./tests/fixture/src/example.ts" code -->
 
 ```ts [example.ts]
@@ -67,7 +68,7 @@ export default defineConfig({
 
 <!-- /automd -->
 
-## License
+## 开源许可
 <!-- automd:contributors author="ZaneL1u" license="MIT" -->
 
 Published under the [MIT](https://github.com/ZaneL1u/unocss-preset-better-breakpoints/blob/main/LICENSE) license.
