@@ -7,7 +7,7 @@
       <div class="bg-white text-center col-3">
         Col 3
       </div>
-      <div class="bg-blue-3 text-center col-4">
+      <div class="text-center bg-blue-3 col-4">
         Col 4
       </div>
       <div class="bg-blue-3 text-center col-5">
