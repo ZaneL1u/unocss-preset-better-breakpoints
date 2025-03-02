@@ -39,4 +39,3 @@ jobs:
         uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          slug: ZaneL1u/unocss-preset-better-breakpoints
