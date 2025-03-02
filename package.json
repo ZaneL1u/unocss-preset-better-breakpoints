@@ -46,7 +46,7 @@
     "dev": "unbuild --stub",
     "dev:demo": "pnpm --filter demo dev",
     "build:demo": "pnpm --filter demo build",
-    "release": "pnpm test && changelogen --release && pnpm build && pnpm upload && pnpm publish --no-git-checks && git push --follow-tags",
+    "release": "pnpm test && changelogen --release && pnpm publish --no-git-checks && git push --follow-tags",
     "lint": "eslint .",
     "lint:fix": "automd && eslint . --fix",
     "prepack": "pnpm build",
