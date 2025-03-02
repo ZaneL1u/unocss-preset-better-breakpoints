@@ -11,6 +11,9 @@ importers:
       '@unocss/core':
         specifier: 66.1.0-beta.3
         version: 66.1.0-beta.3
+      rambda:
+        specifier: ^9.4.2
+        version: 9.4.2
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^4.3.0
@@ -2457,6 +2460,9 @@ packages:
 
   queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
+
+  rambda@9.4.2:
+    resolution: {integrity: sha512-++euMfxnl7OgaEKwXh9QqThOjMeta2HH001N1v4mYQzBjJBnmXBh2BCK6dZAbICFVXOFUVD3xFG0R3ZPU0mxXw==}
 
   rc9@2.1.2:
     resolution: {integrity: sha512-btXCnMmRIBINM2LDZoEmOogIZU7Qe7zn4BpomSKZ/ykbLObuBdvG+mFq11DL6fjH1DRwHhrlgtYWG96bJiC7Cg==}
@@ -5530,6 +5536,8 @@ snapshots:
   quansync@0.2.6: {}
 
   queue-microtask@1.2.3: {}
+
+  rambda@9.4.2: {}
 
   rc9@2.1.2:
     dependencies:
